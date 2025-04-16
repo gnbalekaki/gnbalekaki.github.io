@@ -1,0 +1,19 @@
+title: Gerald Balekaki
+description: Assistant Teaching Professor, Illinois Institute of Technology
+site_title: 'Gerald Balekaki | Portfolio'
+# Files/folders to exclude from build
+exclude:
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - README.md
+
+# Profile image path (used in layouts if applicable)
+profile_picture: assets/images/profile.jpg
+
+# Google Analytics (optional)
+google_analytics: ""
+
+# Deployment base URL (update this only if using a subpath)
+# baseurl: "/<your-repo-name>" # uncomment & update if needed
