@@ -7,7 +7,7 @@ let load_publications = () => {
 
     let publications = [
         {
-            title: "Query Optimizations at Systems Level on Specialized Scientific Database Systems ",
+            title: "Query Optimizations at Systems Level on Specialized Scientific Database Systems",
             authors: "Arup Chauhan, G N. Balekaki",
             year: 2024,
             conference: "IIT Database Group (unpublished)",
@@ -15,7 +15,7 @@ let load_publications = () => {
         },
         {
             title: "Cross Island Join Query and Optimization ",
-            authors: "Sadanand Kolhe,G N. Balekaki",
+            authors: "Sadanand Kolhe, G N. Balekaki",
             year: 2023,
             conference: "IIT Database Group (unpublished)",
             link: "https://www.iit.edu/directory/people/gerald-balekaki"
@@ -49,6 +49,9 @@ let load_publications = () => {
             <p><strong>Authors:</strong> ${pub.authors}</p>
             <p><strong>Year:</strong> ${pub.year}</p>
             <p><strong>Conference:</strong> ${pub.conference}</p>
+     
+
+
         </div>
     `).join("");
 
